@@ -39,11 +39,11 @@
 		</div>
 
 		<h1 style="text-align: center;">Neural Scene Representation and Neural Rendering</h1>
-		<h2 style="text-align: center;">Seminar – Fall Semester 2023</h2>
+		<h2 style="text-align: center;">Seminar – Fall Semester 2024</h2>
 		<h3 style="text-align: center;">Instructor: <a href="https://lingjie0206.github.io/">Lingjie Liu</a>
 		</h3>
-		<h3 style="text-align: center;">TAs: <a href="https://cwchenwang.github.io/">Chen Wang</a>, <a
-				href="https://oscarxzq.github.io/">Oscar Xu</a></h3>
+		<h3 style="text-align: center;">TAs: <a href="https://czzzzh.github.io/">Chuhao Chen</a>, <a
+				href="https://mengxuyigit.github.io/">Xuyi Meng</a></h3>
 
 		<br>
 
@@ -561,11 +561,10 @@
 					<div class="topic"><a onclick="togglePapers(this)">Fast Inference</a></div>
 					<div class="paper">
 						<div class="title"><a
-								href="https://proceedings.neurips.cc/paper/2020/file/b4b758962f17808746e9bb832a6fa4b8-Paper.pdf">Neural
-								Sparse Voxel Fields
+								href="https://bakedsdf.github.io/">BakedSDF: Meshing Neural SDFs for Real-Time View Synthesis
 							</a></div>
-						<div class="authors">Liu et al.</div>
-						<div class="venue">NeurIPS 2020</div>
+						<div class="authors">Yariv et al.</div>
+						<div class="venue">SIGGRAPH 2023</div>
 					</div>
 					<div class="paper">
 						<div class="title"><a href="https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/">3D
@@ -574,6 +573,13 @@
 							</a></div>
 						<div class="authors">Kerbl et al.</div>
 						<div class="venue">SIGGRAPH 2023 (Best Paper Award)</div>
+					</div>
+					<div class="paper">
+						<div class="title"><a href="https://surfsplatting.github.io/">
+							2D Gaussian Splatting for Geometrically Accurate Radiance Fields
+							</a></div>
+						<div class="authors">Huang et al.</div>
+						<div class="venue">SIGGRAPH 2024</div>
 					</div>
 				</td>
 
@@ -609,7 +615,7 @@
 						<div class="venue">ECCV 2022</div>
 					</div>
 					<div class="paper">
-						<div class="title"><a href="https://apchenstu.github.io/FactorFields/">Factor Fields: A Unified
+						<div class="title"><a href="https://apchenstu.github.io/FactorFields/"> + Factor Fields: A Unified
 								Framework for Neural Fields and Beyond
 							</a></div>
 						<div class="authors">Chen et al.</div>
@@ -633,23 +639,65 @@
 				</td> -->
 			</tr>
 
-
 			<tr>
 				<td>
-					<div class="topic"><a onclick="togglePapers(this)">Unbounded Scenes</a></div>
+					<div class="topic"><a onclick="togglePapers(this)">Antialiasing</a></div>
 					<div class="paper">
-						<div class="title"><a href="https://arxiv.org/abs/2111.12077">Mip-NeRF 360: Unbounded
+						<div class="title"><a href="https://jonbarron.info/zipnerf/">
+							Zip-NeRF: Anti-Aliased Grid-Based Neural Radiance Fields
+							</a></div>
+						<div class="authors">Barron et al.</div>
+						<div class="venue">ICCV 2023 (Oral Presentation, Best Paper Finalist)</div>
+					</div>
+					<div class="paper">
+						<div class="title"><a href="https://jonbarron.info/mipnerf/">Mip-NeRF: A Multiscale Representation
+							for Anti-Aliasing Neural Radiance Fields
+							</a></div>
+						<div class="authors">Barron et al.</div>
+						<div class="venue">ICCV 2021 (Oral, Best Paper Honorable Mention)</div>
+					</div>
+					<div class="paper">
+						<div class="title"><a href="https://jonbarron.info/mipnerf360/">
+							Mip-NeRF 360: Unbounded
 								Anti-Aliased Neural Radiance Fields
 							</a></div>
 						<div class="authors">Barron et al.</div>
-						<div class="venue">CVPR 2022</div>
+						<div class="venue">CVPR 2022 (Oral Presentation)</div>
 					</div>
+					<div class="paper">
+						<div class="title"><a href="https://niujinshuchong.github.io/mip-splatting/">
+							Mip-Splatting: Alias-free 3D Gaussian Splatting
+							</a></div>
+						<div class="authors">Yu et al.</div>
+						<div class="venue">CVPR 2024 (Best Student Paper Finalist)</div>
+					</div>
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<div class="topic"><a onclick="togglePapers(this)">Large (Unbounded) Scenes</a></div>
+					
 					<div class="paper">
 						<div class="title"><a href="https://arxiv.org/abs/2302.12249">MERF:
 								Memory-Efficient Radiance Fields for Real-time View Synthesis in Unbounded Scenes
 							</a></div>
 						<div class="authors">Reiser et al.</div>
 						<div class="venue">SIGGRAPH 2023</div>
+					</div>
+					<div class="paper">
+						<div class="title"><a href="https://smerf-3d.github.io/">
+							+ SMERF: Streamable Memory Efficient Radiance Fields for Real-Time Large-Scene Exploration
+							</a></div>
+						<div class="authors">Duckworth and Hedman et al.</div>
+						<div class="venue">SIGGRAPH 2024 (Honorable Mention)</div>
+					</div>
+					<div class="paper">
+						<div class="title"><a href="https://city-super.github.io/gridnerf/">
+							Grid-guided Neural Radiance Fields for Large Urban Scenes
+							</a></div>
+						<div class="authors">Xu et al.</div>
+						<div class="venue">CVPR 2023</div>
 					</div>
 				</td>
 
@@ -675,34 +723,43 @@
 				<td>
 					<div class="topic"><a onclick="togglePapers(this)">Generalization</a></div>
 					<div class="paper">
-						<div class="title"><a href="https://jiataogu.me/nerfdiff/">NerfDiff: Single-image View Synthesis
-								with
-								NeRF-guided Distillation from 3D-aware Diffusion</a></div>
-						<div class="authors">Gu et al.</div>
-						<div class="venue">ICML 2023</div>
+						<div class="title"><a href="https://davidcharatan.com/pixelsplat/">
+							PixelSplat: 3D Gaussian Splats from Image Pairs for Scalable Generalizable 3D Reconstruction</a></div>
+						<div class="authors">Charatan et al.</div>
+						<div class="venue">CVPR 2024 (Oral)</div>
+						<div class="disc">(infers a 3D Gaussian scene from two input views in a single forward pass.)						</div>
+					</div>
+					<div class="paper">
+						<div class="title"><a href="https://alexyu.net/pixelnerf/">
+							pixelNeRF
+							Neural Radiance Fields from One or Few Images</a></div>
+						<div class="authors">Yu et al.</div>
+						<div class="venue">CVPR 2021</div>
+						<!-- <div class="disc">(infers a 3D Gaussian scene from two input views in a single forward pass.)						</div> -->
+					</div>
+
+					<!-- group of LRM family -->
+					<div class="paper">
+						<div class="title"><a href="https://yiconghong.me/LRM/">
+							LRM: Large Reconstruction Model for Single Image to 3D</a></div>
+						<div class="authors">Hong et al.</div>
+						<div class="venue">ICLR 2024 (Oral)</div>
+						<!-- <div class="disc">(infers a 3D Gaussian scene from two input views in a single forward pass.)						</div> -->
 					</div>
 				</td>
 
-				<!-- <td align="center">
-					<div class="date"><a onclick="togglePapers(this)">Date: TBD</a></div>
-
-					<div class="person">
-						<div class="label">Presenter:</div>
-						<div class="name">TBD</a></div>
-					</div>
-
-					<div class="person">
-						<div class="label">Supervisor:</div>
-						<div class="name"><a href=".">TBD</a></div>
-					</div>
-
-				</td> -->
+				
 			</tr>
 
 
 			<tr>
 				<td>
-					<div class="topic"><a onclick="togglePapers(this)">3D Generation</a></div>
+					<div class="topic"><a onclick="togglePapers(this)">3D Generative Model</a></div>
+					<!-- TODO: add small topic -->
+					 <!-- Per-scene optimization -->
+					<div class="paper">
+						<div class="title">[Per-scene optimization: diffusion distillation]</a></div>
+					</div>
 					<div class="paper">
 						<div class="title"><a href="https://dreamfusion3d.github.io/">DreamFusion: Text-to-3d using 2D
 								diffusion</a></div>
@@ -710,6 +767,27 @@
 						<div class="venue">ICLR 2023</div>
 					</div>
 					<div class="paper">
+						<div class="title"><a href="https://dreamfusion3d.github.io/">ProlificDreamer: High-Fidelity and Diverse Text-to-3D Generation with Variational Score Distillation</a></div>
+						<div class="authors">Wang et al.</div>
+						<div class="venue">NeurIPS 2023 (Spotlight)</div>
+					</div>
+
+					<div class="paper">
+						<div class="title">[Single-view image → multi-view image → 3D reconstruction]</a></div>
+					</div>
+					<div class="paper">
+						<div class="title"><a href="https://cat3d.github.io/">
+							Cat3D: Create Anything in 3D with Multi-View Diffusion Models</a></div>
+						<div class="authors">Gao et al.</div>
+						<div class="venue">Arxiv 2024</div>
+					</div>
+					<div class="paper">
+						<div class="title"><a href="https://arxiv.org/abs/2404.07191">
+							InstantMesh: Efficient 3D Mesh Generation from a Single Image with Sparse-view Large Reconstruction Models</a></div>
+						<div class="authors">Xu et al.</div>
+						<div class="venue">Arxiv 2024</div>
+					</div>
+					<!-- <div class="paper">
 						<div class="title"><a href="https://nvlabs.github.io/eg3d/">EG3D: Efficient Geometry-aware 3D
 								Generative Adversarial Networks</a></div>
 						<div class="authors">Chan et al.</div>
@@ -720,7 +798,7 @@
 								Quality 3D Textured Shapes Learned from Images</a></div>
 						<div class="authors">Gao et al.</div>
 						<div class="venue">NeurIPS 2022</div>
-					</div>
+					</div> -->
 				</td>
 
 				<!-- <td align="center"> -->
