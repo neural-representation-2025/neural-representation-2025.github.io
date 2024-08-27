@@ -743,22 +743,42 @@
 						<div class="authors">Barron et al.</div>
 						<div class="venue">ICCV 2021 (Oral, Best Paper Honorable Mention)</div>
 					</div>
-					<div class="paper">
-						<div class="title"><a href="https://jonbarron.info/zipnerf/">
-							Zip-NeRF: Anti-Aliased Grid-Based Neural Radiance Fields
-							</a></div>
-						<div class="authors">Barron et al.</div>
-						<div class="venue">ICCV 2023 (Oral Presentation, Best Paper Finalist)</div>
-					</div>
-					
+
 					<div class="paper">
 						<div class="title"><a href="https://jonbarron.info/mipnerf360/">
-							Mip-NeRF 360: Unbounded
+							+ Mip-NeRF 360: Unbounded
 								Anti-Aliased Neural Radiance Fields
 							</a></div>
 						<div class="authors">Barron et al.</div>
 						<div class="venue">CVPR 2022 (Oral Presentation)</div>
 					</div>
+
+					<div class="paper">
+						<div class="title"><a href="https://jonbarron.info/zipnerf/">
+							+ Zip-NeRF: Anti-Aliased Grid-Based Neural Radiance Fields
+							</a></div>
+						<div class="authors">Barron et al.</div>
+						<div class="venue">ICCV 2023 (Oral Presentation, Best Paper Finalist)</div>
+					</div>
+
+					<!-- <div class="comparison">
+							Comparison of Mip-NeRF, Mip-NeRF 360, and Zip-NeRF: 
+							common: aim at addressing the aliasing artifacts of NeRF;
+							Mip-NeRF: address aliasing artifacts of NeRF at different rendering resolutions 
+							by replacing point sampling with gaussian sampling;
+							Mip-NeRF 360: extend Mip-NeRF to unbounded scenes by using a non-linear parameterization of the scene
+							to allocation propriate capacity for foreground and background;
+							Zip-NeRF: address the z-aliasing artifacts of resampling points along rays in mip-NeRF 360
+							as well as adapt to the efficient grid representation of the scene through multisampling within a conical frustum.	
+					</div> -->
+					<div class="comparison">
+						<strong> Mip-NeRF v.s. Mip-NeRF 360 v.s. Zip-NeRF</strong>:<br>
+						&nbsp;&nbsp;&nbsp;&nbsp;<strong>Common</strong>: Address the aliasing artifacts of NeRF.<br>
+						&nbsp;&nbsp;&nbsp;&nbsp;<strong>Mip-NeRF</strong>: Mitigates aliasing artifacts at different resolutions by replacing point sampling with Gaussian sampling.<br>
+						&nbsp;&nbsp;&nbsp;&nbsp;<strong>Mip-NeRF 360</strong>: Extends Mip-NeRF to unbounded scenes using a non-linear scene parameterization to allocate appropriate capacity for foreground and background.<br>
+						&nbsp;&nbsp;&nbsp;&nbsp;<strong>Zip-NeRF</strong>: Addresses z-aliasing artifacts from Mip-NeRF 360's resampling and adapts to an efficient grid representation using multisampling within a conical frustum.
+					</div>
+					
 					<div class="paper">
 						<div class="title"><a href="https://niujinshuchong.github.io/mip-splatting/">
 							Mip-Splatting: Alias-free 3D Gaussian Splatting
@@ -787,6 +807,15 @@
 						<div class="authors">Duckworth and Hedman et al.</div>
 						<div class="venue">SIGGRAPH 2024 (Best Paper Honorable Mention)</div>
 					</div>
+					
+					<div class="comparison">
+						<strong>MERF v.s. SMERF</strong>:<br>
+						&nbsp;&nbsp;&nbsp;&nbsp;<strong>Common</strong>: Use compact representation to achieve high-quality real-time volumetric rendering.<br>
+						&nbsp;&nbsp;&nbsp;&nbsp;<strong>MERF</strong>: Proposed a combination of a low-resolution 3D grid and a set of higher-resolution 2D planes.<br>
+						&nbsp;&nbsp;&nbsp;&nbsp;<strong>SMERF</strong>: Supports real-time rendering on mobile devices; dedicates each viewpoint a MERF for large scenes.
+					</div>
+					
+					
 					<div class="paper">
 						<div class="title"><a href="https://city-super.github.io/gridnerf/">
 							Grid-guided Neural Radiance Fields for Large Urban Scenes
@@ -874,6 +903,12 @@
 						<div class="authors">Tang et al.</div>
 						<div class="venue">ECCV 2024 (Oral)</div>
 					</div>
+					<div class="paper">
+						<div class="title"><a href="https://chaoxu.xyz/sparp/">
+							One-2-3-45++: Fast Single Image to 3D Objects with Consistent Multi-View Generation and 3D Diffusion</a></div>
+						<div class="authors">Liu et al.</div>
+						<div class="venue">CVPR 2024</div>
+					</div>
 
 					<div class="paper">
 						<div class="title">[Pose-free 3D Generation]</a></div>
@@ -890,6 +925,9 @@
 						<div class="authors">Xu et al.</div>
 						<div class="venue">ECCV 2024</div>
 					</div>
+					<div class="comparison">
+						todo
+					</div>
 
 					<div class="paper">
 						<div class="title">[Native 3D Generation]</a></div>
@@ -898,12 +936,6 @@
 						<div class="title"><a href="https://szymanowiczs.github.io/splatter-image">
 							Splatter Image: Ultra-Fast Single-View 3D Reconstruction</a></div>
 						<div class="authors">Szymanowicz et al.</div>
-						<div class="venue">CVPR 2024</div>
-					</div>
-					<div class="paper">
-						<div class="title"><a href="https://chaoxu.xyz/sparp/">
-							One-2-3-45++: Fast Single Image to 3D Objects with Consistent Multi-View Generation and 3D Diffusion</a></div>
-						<div class="authors">Liu et al.</div>
 						<div class="venue">CVPR 2024</div>
 					</div>
 					
