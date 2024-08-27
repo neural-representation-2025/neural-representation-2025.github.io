@@ -87,6 +87,12 @@ table.topics .person .label {
     font-style: italic;
 }
 
+table.topics .comparison {
+    font-size: 75%;
+    font-style: italic;
+    color: darksalmon;
+}
+
 table.topics .none {
     color: #666;
 }
